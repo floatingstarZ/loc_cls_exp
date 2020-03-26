@@ -1,0 +1,8 @@
+EVALUATE
+.idea
+venv
+
+results
+data
+intermediate_results
+checkpoints

@@ -1,0 +1,41 @@
+1. 创建软连接
+ln -s ../../data ./data
+ln -s 源文件   目标文件
+
+2.
+
+3. 基本的训练
+CUDA_VISIBLE_DEVICES=3,4,5,6 python ./tools/train.py ./configs/retinanet_x101_32x4d_fpn_1x.py --gpus 4 --work_dir ./results/RetinaNet_x101_64
+
+4. ssh huangziyue@192.168.170.2
+
+5. scp -r huangziyue@192.168.170.2:/home/huangziyue/.cache/torch ./.cache/torch
+
+6. history
+
+
+7. sudo adduser username sudo              # 追加管理员权限
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
